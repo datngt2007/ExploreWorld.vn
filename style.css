@@ -1,0 +1,27 @@
+/* navbar */
+#nav {
+  background-color: rgb(129, 226, 255);
+}
+/* search */
+.hide {
+  display: none;
+}
+#name_product {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+.ma {
+  .product {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+  }
+}
+/* footer  */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(129, 226, 255);
+}
+
