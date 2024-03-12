@@ -17,9 +17,9 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg"id="nav">
+    <nav class="navbar navbar-expand-lg" id="nav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"> ExploreWorld</a>
+            <a class="navbar-brand" href="index.html" style="font-size: 25px; font-weight: bold;"> ExploreWorld</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,56 +42,147 @@
                     <form class="d-flex" role="search" style="height: 40px;">
                         <input id="search-input" class="form-control me-2 border border-primary rounded" type="search"
                             placeholder="Search" aria-label="Search" />
-                        <button id="navbar" class=" border border-primary rounded" type="submit">
+                        <button style="height: 40px; border-radius: 5px;" type="submit">
                             Search
                         </button>
-                        <button id="navbar" class="mx-2 border border-primary rounded" type="submit">
-                            <a class="nav-link" href="signin.html">Login</a>
-                        </button>
-                        <button id="navbar" class="border border-primary rounded " type="submit">
-                            <div style="display: flex;">
-                                <i class="fa-solid fa-cart-shopping " style="font-size: 27px;"></i>
-                                <b style="margin-top: 10px;">Cart</b>
-                            </div>
-                        </button>
+                        <div id="login" style="margin: 0px 10px; height: 0px;">
+                            <button type="submit" id="login" style="height: 40px; border-radius: 5px;">
+                                <a class="nav-link" href="signin.html">Login</a>
+                            </button>
+                        </div>
+                        <div id="" style="margin: 0px 5px; height: 0px;">
+                            <button style="height: 40px; border-radius: 5px;" type="submit">
+                                <a class="nav-link" href="comment.html">Comment</a>
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </nav>
+    <!-- warpper -->
+
     <!-- main -->
-    
-    <!-- footer -->
-    <div class="footer" id="footer">
-        <div class="contact">
-            <div>
-                <div>
-                    <h1>HOTLINE CUSTOMER CARE</h1>
-                    <i class="fa-solid fa-phone d-flex fa-2x mt-2"> +84 28 3520 9999</i>
-                    <i class="far fa-envelope fa-2x mt-2"></i><span> dattravel.gmail</span>
-                    <div class="icons mt-2">
-                        <i class="fab fa-facebook fa-2x"></i>
-                        <i class="fab fa-facebook-messenger fa-2x"></i>
-                        <i class="fab fa-instagram fa-2x"></i>
-                        <i class="fab fa-twitter fa-2x"></i>
+    <div style="border-radius: 100px; height: 1000px; width: auto;">
+        <h2 style="font-size: 25px; margin-left: 50px; margin: 20px; ">Why book with ExploreWorld?</h2>
+        <div style="display: flex; justify-content: space-around;">
+            <div
+                style="border-radius: 50px 10px; border-style: solid; border-width: medium; height: 105px; width: 440px">
+                <div style="display: flex; width: 420px; margin-left: 20px; margin-top: 10px;">
+                    <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/14/1686717876390-f8c5c3c3a19ab6bf8fbd9efc9a168f8a.webp?tr=h-64,q-75,w-64"
+                        alt="">
+                    <div style="width: 360px;">
+                        <h2 style="font-size: 20px;">One place for all your needs</h2>
+                        <div>From flights, stays, to sights, just count on our complete products and Travel Guides.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                style="border-radius: 50px 10px; border-style: solid; border-width: medium; height: 105px; width: 440px">
+                <div style="display: flex; width: 420px; margin-left: 20px; margin-top: 10px;">
+                    <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/14/1686717879180-0b20eabf785084d44f89225f881a0784.webp?tr=h-64,q-75,w-64"
+                        alt="">
+                    <div style="width: 360px;">
+                        <h2 style="font-size: 20px;">Flexible booking options</h2>
+                        <div>Sudden change of plan? No worries! Reschedule or Refund without hassle.</div>
+                    </div>
+                </div>
+            </div>
+            <div
+                style="border-radius: 50px 10px; border-style: solid; border-width: medium; height: 105px; width: 440px">
+                <div style="display: flex; width: 420px; margin-left: 20px; margin-top: 10px;">
+                    <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/14/1686717882046-98e3f26be236426c75fab95bb3e26f25.webp?tr=h-64,q-75,w-64"
+                        alt="">
+                    <div style="width: 360px;">
+                        <h2 style="font-size: 20px;">Secure & convenient payment</h2>
+                        <div>Enjoy many secure ways to pay, in the currency that's most convenient for you.</div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="map">
-            <h3 style="text-align: center;">Digital Currency Vibes</h3>
-            <div >
-                <img src="https://travel.com.vn/images/apps/123pay.webp" alt="" style="padding: 3px;">
-                <img src="https://travel.com.vn/images/apps/vnpay_qrcode.webp" alt="" style="padding: 3px;">
-                <img src="https://travel.com.vn/images/apps/visa.webp" alt="" style="padding: 3px;">
+        <!-- List product -->
+        <h2 style="text-align: center; margin: 30px;">List product</h2>
+        <div id="biy">
+            <div style="display: flex; justify-content: center;">
+                <div style="margin-right: 20px; margin-bottom: 10px;">
+                    <img src="http://www.elrinconcunqueiru.com/wp-content/uploads/2021/05/48839-158-buildings-2297210_1920.jpg"
+                        alt="" style="height: 300px; width: 400px;">
+                    <div
+                        style=" position: absolute; top: 79%; left: 140px;  font-size: 40px; font-weight: bold; color: white;">
+                        Canada</div>
+                </div>
+                <div style="margin-right: 20px; ">
+                    <img src="https://skyticket.com/guide/wp-content/uploads/2020/01/shutterstock_188615729.jpg" alt=""
+                        style="height: 300px; width: 400px;">
+                    <div
+                        style=" position: absolute; top: 79%; left: 560px;  font-size: 40px; font-weight: bold; color: white;">
+                        Japan</div>
+                </div>
+                <div style="margin-right: 20px; ">
+                    <img src="https://leaveyourdailyhell.com/wp-content/uploads/2019/04/Korea-11.jpg" alt=""
+                        style="height: 300px; width: 400px;">
+                    <div
+                        style=" position: absolute; top: 79%; left: 980px;  font-size: 40px; font-weight: bold; color: white;">
+                        Korea</div>
+                </div>
             </div>
-            <div>
-                <img src="https://travel.com.vn/images/apps/mtc.webp" alt="" style="padding: 6px;">
-                <img src="https://travel.com.vn/images/apps/jcb.webp" alt="" style="padding: 8px;">
-                <img src=" https://travel.com.vn/images/apps/vrvs.webp" alt="" style="padding: 6px;">
+            <div style="display: flex; justify-content: center; margin-bottom: 30px;">
+                <div style="margin-right: 20px;">
+                    <img src="https://www.worldatlas.com/upload/c8/80/c3/shutterstock-1443887954.jpg" alt=""
+                        style="height: 300px; width: 400px;">
+                    <div
+                        style=" position: absolute; top: 121%; left: 140px;  font-size: 40px; font-weight: bold; color: white;">
+                        Vietnam</div>
+                </div>
+                <div style="margin-right: 20px; ">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.c52_lcysqs4EAFsXphqQvwHaE7&pid=Api&P=0&h=180" alt=""
+                        style="height: 300px; width: 400px;">
+                    <div
+                        style=" position: absolute; top: 121%; left: 560px;  font-size: 40px; font-weight: bold; color: white;">
+                        Usa</div>
+                </div>
+                <div style="margin-right: 20px; ">
+                    <img src="https://www.zastavki.com/pictures/originals/2015/Cities_Shanghai_city_in_China_094392_.jpg"
+                        alt="" style="height: 300px; width: 400px;">
+                    <div
+                        style=" position: absolute; top: 121%; left: 980px;  font-size: 40px; font-weight: bold; color: white;">
+                        China</div>
+                </div>
             </div>
         </div>
-    </div>
+        <!-- footer -->
+        <div class="footer" id="footer" style="height: 270px;">
+            <div style="margin-top: 40px; margin-right: 90px;">
+                <div>
+                    <div>
+                        <div style="font-size: 40px; font-weight: bold;">Hotline Customer Care</div>
+                        <i class="fa-solid fa-phone d-flex fa-2x mt-2"><span style="margin-left: 15px; font-size: 27px;">+84 28 3520 9999</span></i>
+                        <i class="far fa-envelope fa-2x mt-2"></i><span> exploreworld.gmail</span>
+                        <div class="icons mt-2">
+                            <i class="fab fa-facebook fa-2x"></i>
+                            <i class="fab fa-facebook-messenger fa-2x"></i>
+                            <i class="fab fa-instagram fa-2x"></i>
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 45px;">
+                <div style="font-size: 30px; font-weight: bold;">Digital Currency Vibes</div>
+                <div>
+                    <img src="https://travel.com.vn/images/apps/123pay.webp" alt="" style="padding: 3px;">
+                    <img src="https://travel.com.vn/images/apps/vnpay_qrcode.webp" alt="" style="padding: 3px;">
+                    <img src="https://travel.com.vn/images/apps/visa.webp" alt="" style="padding: 3px;">
+                </div>
+                <div>
+                    <img src="https://travel.com.vn/images/apps/mtc.webp" alt="" style="padding: 6px;">
+                    <img src="https://travel.com.vn/images/apps/jcb.webp" alt="" style="padding: 8px;">
+                    <img src=" https://travel.com.vn/images/apps/vrvs.webp" alt="" style="padding: 6px;">
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+        <script src="signin.js" type="module"></script>
 </body>
-
 </html>
