@@ -19,7 +19,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg" id="nav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"> ExploreWorld</a>
+            <a class="navbar-brand" href="index.html" style="font-size: 25px; font-weight: bold;"> ExploreWorld</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,18 +42,19 @@
                     <form class="d-flex" role="search" style="height: 40px;">
                         <input id="search-input" class="form-control me-2 border border-primary rounded" type="search"
                             placeholder="Search" aria-label="Search" />
-                        <button id="navbar" class=" border border-primary rounded" type="submit">
+                        <button style="height: 40px; border-radius: 5px;" type="submit">
                             Search
                         </button>
-                        <button id="navbar" class="mx-2 border border-primary rounded" type="submit">
-                            <a class="nav-link" href="signin.html">Login</a>
-                        </button>
-                        <button id="navbar" class="border border-primary rounded " type="submit">
-                            <div style="display: flex;">
-                                <i class="fa-solid fa-cart-shopping " style="font-size: 27px;"></i>
-                                <b style="margin-top: 10px;">Cart</b>
-                            </div>
-                        </button>
+                        <div id="login" style="margin: 0px 10px; height: 0px;">
+                            <button type="submit" id="login" style="height: 40px; border-radius: 5px;">
+                                <a class="nav-link" href="signin.html">Login</a>
+                            </button>
+                        </div>
+                        <div id="" style="margin: 0px 5px; height: 0px;">
+                            <button style="height: 40px; border-radius: 5px;" type="submit">
+                                <a class="nav-link" href="comment.html">Comment</a>
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -62,19 +63,19 @@
     <!-- main -->
     <div class="card mx-auto mt-5 mb-5 p-5" style="width: 470px; background-color: rgb(144, 224, 248);">
         <div class="card-body">
-            <p class="fw-bold mb-5" style="font-size: 34px;">Sign in</p>
+            <div class="fw-bold mb-5" style="font-size: 34px;">Sign in</div>
             <div>
                 <div class="mb-4 mt-4">
-                    <input type="email" class="form-control form-control-lg shadow-sm p-3  bg-body rounded "
-                        id="email-input" placeholder="Enter your email" />
+                    <input type="email" class="form-control form-control-lg shadow-sm p-3  bg-body rounded " id="email"
+                        placeholder="Email" />
                 </div>
                 <div class="mb-4">
                     <input type="password" class="form-control form-control-lg shadow-sm p-3  bg-body rounded"
-                        id="pas-input" placeholder="Password" />
+                        id="password" placeholder="Password" />
                 </div>
             </div>
             <button type="submit" class="btn btn-primary form-control form-control-lg fs-4 "
-                style="color: white; background-color: black;">
+                style="color: white; background-color: black;" id="button">
                 Sign in
             </button>
         </div>
@@ -88,13 +89,14 @@
     </div>
     </div>
     <!-- footer -->
-    <div class="footer" id="footer">
-        <div class="contact">
+    <div class="footer" id="footer" style="height: 270px;">
+        <div style="margin-top: 40px; margin-right: 90px;">
             <div>
                 <div>
-                    <h1>HOTLINE CUSTOMER CARE</h1>
-                    <i class="fa-solid fa-phone d-flex fa-2x mt-2"> +84 28 3520 9999</i>
-                    <i class="far fa-envelope fa-2x mt-2"></i><span> dattravel.gmail</span>
+                    <div style="font-size: 40px; font-weight: bold;">Hotline Customer Care</div>
+                    <i class="fa-solid fa-phone d-flex fa-2x mt-2"><span style="margin-left: 15px; font-size: 27px;">+84
+                            28 3520 9999</span></i>
+                    <i class="far fa-envelope fa-2x mt-2"></i><span> exploreworld.gmail</span>
                     <div class="icons mt-2">
                         <i class="fab fa-facebook fa-2x"></i>
                         <i class="fab fa-facebook-messenger fa-2x"></i>
@@ -104,8 +106,8 @@
                 </div>
             </div>
         </div>
-        <div class="map">
-            <h3 style="text-align: center;">Digital Currency Vibes</h3>
+        <div style="margin-top: 45px;">
+            <div style="font-size: 30px; font-weight: bold;">Digital Currency Vibes</div>
             <div>
                 <img src="https://travel.com.vn/images/apps/123pay.webp" alt="" style="padding: 3px;">
                 <img src="https://travel.com.vn/images/apps/vnpay_qrcode.webp" alt="" style="padding: 3px;">
@@ -118,6 +120,7 @@
             </div>
         </div>
     </div>
+    <script src="signin.js" type="module"></script>
 </body>
 
 </html>
