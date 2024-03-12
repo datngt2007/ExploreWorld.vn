@@ -2,6 +2,21 @@
 #nav {
   background-color: rgb(129, 226, 255);
 }
+/* product */
+.product-photo {
+  display: flex;
+  justify-content: center;
+}
+.product-button {
+  width:250px ;
+}
+.product-button button {
+  width:200px;
+  font-size: 25px;
+  background-color: orangered;
+  color: aliceblue;
+  border-radius: 10px;
+}
 /* search */
 .hide {
   display: none;
@@ -11,12 +26,10 @@
   justify-content: space-evenly;
   padding: 50px 0;
 }
-.ma {
-  .product {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 50px 0;
-  }
+.star span {
+  color: #ffd43b;
+  font-size: 25px;
+  margin-left: 3px;
 }
 /* footer  */
 .footer {
@@ -24,4 +37,3 @@
   justify-content: space-around;
   background-color: rgb(129, 226, 255);
 }
-
