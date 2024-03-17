@@ -61,26 +61,18 @@
         </div>
     </nav>
     <!-- main -->
-    <div style="height: 800px;">
-        <div style="text-align: center;  max-width: 600px; margin: 0 auto; padding: 20px;">
-            <h1>Comment</h1>
-            <div id="comment-list" style="margin-bottom: 20px; height: 400px;">
+    <div style="height: 800px;">    
+        <div class="container">
+            <h1>Comments</h1>
+            <div id="comments-list">
+                <!-- Comments will be displayed here -->
 
             </div>
-            <div style="display: flex; justify-content: center;">
-                <img src="http://cdn.onlinewebfonts.com/svg/img_124200.png"
-                    style="height: 40px; width: 40px; margin-bottom: 80px;">
-                <form action="">
-                    <input type="text" style="width: 700px; height: 140px;" placeholder="Write text here"
-                        id="text-comment">
-                    <div style="display: flex; width: 700px">
-                        <!-- <input type="" style="height: 20px;"> -->
-                        <button type="button"
-                            style="margin: 10px auto ; height: 40px; width: 67px; background-color: #007bff; color: #fff; border: none; cursor: pointer; "
-                            id="">Summit</button>
-                    </div>
-                </form>
-            </div>
+            <form id="comment-form">
+                <textarea id="comment-input" placeholder="Enter your comment"></textarea>
+                <input type="file" id="image-input" accept="image/*">
+                <button type="submit" id="mi">Submit</button>
+            </form>
         </div>
     </div>
     <!-- footer -->
